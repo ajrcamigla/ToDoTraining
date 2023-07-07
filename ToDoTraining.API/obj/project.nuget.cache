@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OdLabXXZvwDPNkhzGckrc+sKIwteRhH9o/WXgOrrYy+vSD5EIKg8cr/HwwBkOleUMKDeEjGZTMCah8R/a4RMEQ==",
+  "dgSpecHash": "NyZCH5Z+7HWH4uRve6j+YnhOYwIzluLkVjeRWgJGDtWNdAVP5eGjuRWlwKS2SRrz1oX2d3vP1fKr7n6e4ayzYw==",
   "success": true,
   "projectFilePath": "C:\\ToDoTraining\\ToDoTraining.API\\ToDoTraining.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

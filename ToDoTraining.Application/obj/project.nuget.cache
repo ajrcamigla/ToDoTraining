@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1lQ/JDxz+o3y6ZljMziGQnJt2KttbGwO+DC/c4w7wbILIR4xIkOquCiX8cP89B88mVz+zy9s2t8uQOhcff8XQg==",
+  "dgSpecHash": "Jd6n+rriR+Z0tH6tG3i8u2v/w+CVL7ZiG8WPWmZ1snnKhF5wYxd8A3dOwsv+IXaCIN8V3bcP7n/jLvSFnKJBew==",
   "success": true,
   "projectFilePath": "C:\\ToDoTraining\\ToDoTraining.Application\\ToDoTraining.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
