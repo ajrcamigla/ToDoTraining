@@ -8,7 +8,7 @@ namespace ToDoTraining.Domain.Interface
 {
     public interface IRepository<T>
     {
-        Task GetById(string id);
+        Task<T> GetById(string id);
 
         Task<List<T>> GetAll();
 

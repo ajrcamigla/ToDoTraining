@@ -4,9 +4,9 @@ using ToDoTraining.Domain.Interface;
 
 namespace ToDoTraining.Application.Features
 {
-    public record GetToDoByIdquery(string Id) : IRequest<Unit>;
+    public record GetToDoByIdquery(string Id) : IRequest<ToDo>;
 
-    public class GetToDoByIdQueryHandler : IRequestHandler<GetToDoByIdquery, Unit>
+    public class GetToDoByIdQueryHandler : IRequestHandler<GetToDoByIdquery, ToDo>
     {
         private readonly IRepository<ToDo> _repository;
 
@@ -15,11 +15,9 @@ namespace ToDoTraining.Application.Features
             _repository = repository;
         }
 
-        public async Task<Unit> Handle(GetToDoByIdquery request, CancellationToken cancellationToken)
+        public async Task<ToDo> Handle(GetToDoByIdquery request, CancellationToken cancellationToken)
         {
-            await _repository.GetById(request.Id);
-
-            return Unit.Value;
+             return await _repository.GetById(request.Id);
         }
     }
 }

@@ -15,7 +15,8 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.G
 builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(CreateToDoCommandHandler).Assembly));
 builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(DeleteToDoCommandHandler).Assembly));
 builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetToDoByIdQueryHandler).Assembly));
-builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetAllToDoCommandHandler).Assembly));
+builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(UpdateToDoCommandHandler).Assembly));
+
 
 
 builder.Services.AddControllers();

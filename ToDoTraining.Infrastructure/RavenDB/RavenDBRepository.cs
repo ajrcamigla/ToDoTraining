@@ -32,20 +32,40 @@ namespace ToDoTraining.Infrastructure.RavenDB
 
         public async Task<List<T>> GetAll()
         {
+            //var toDoList = new List<T>();
+
+            //using (var session = DocumentStoreHolder.Store.OpenAsyncSession())
+            //{
+            //    using (var outputStream = new MemoryStream())
+            //    {
+            //        toDoList = await session
+            //            .Advanced
+            //            .LoadStartingWithIntoStreamAsync("todos/", outputStream);
+
+            //    }
+            //}
+            //return toDoList;
             throw new NotImplementedException();
         }
 
-        public async Task GetById(string id)
+        public async Task<T> GetById(string id)
         {
             using (var session = DocumentStoreHolder.Store.OpenAsyncSession())
             {
-                var todo = await session.LoadAsync<T>(id);
+                return await session.LoadAsync<T>(id);
             }
+
         }
 
-        public Task<T> Update(T entity)
+        public async Task<T> Update(T entity)
         {
-            throw new NotImplementedException();
+            using (var session = DocumentStoreHolder.Store.OpenAsyncSession())
+            {
+                await session.StoreAsync(entity);
+                await session.SaveChangesAsync();
+            }
+
+            return entity;
         }
     }
 }
