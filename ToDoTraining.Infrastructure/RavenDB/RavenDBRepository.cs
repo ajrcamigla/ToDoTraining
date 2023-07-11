@@ -35,9 +35,12 @@ namespace ToDoTraining.Infrastructure.RavenDB
             throw new NotImplementedException();
         }
 
-        public Task GetById(string id)
+        public async Task GetById(string id)
         {
-            throw new NotImplementedException();
+            using (var session = DocumentStoreHolder.Store.OpenAsyncSession())
+            {
+                var todo = await session.LoadAsync<T>(id);
+            }
         }
 
         public Task<T> Update(T entity)

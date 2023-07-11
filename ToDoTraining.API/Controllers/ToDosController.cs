@@ -24,10 +24,10 @@ namespace ToDoTraining.API.Controllers
             return await _mediator.Send(command);
         }
 
-        [HttpGet]
-        public async Task<IList<ToDo>> GetAll([FromBody] GetAllToDoCommand command)
+        [HttpGet("{id}")]
+        public async Task GetById([FromRoute] string id)
         {
-            return (IList<ToDo>)await _mediator.Send(command);
+            await _mediator.Send(new GetToDoByIdquery(id));
         }
 
         [HttpDelete("{id}")]

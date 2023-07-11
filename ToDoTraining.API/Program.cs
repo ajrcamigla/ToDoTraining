@@ -13,9 +13,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IRepository<ToDo>, TodoRepository>();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
 builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(CreateToDoCommandHandler).Assembly));
-builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetAllToDoCommandHandler).Assembly));
-builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetToDoByIdQueryHandler).Assembly));
 builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(DeleteToDoCommandHandler).Assembly));
+builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetToDoByIdQueryHandler).Assembly));
+builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(GetAllToDoCommandHandler).Assembly));
+
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
