@@ -8,7 +8,7 @@ namespace ToDoTraining.Domain.Interface
 {
     public interface IRepository<T>
     {
-        Task<T> GetById(int id);
+        Task GetById(string id);
 
         Task<List<T>> GetAll();
 
@@ -16,6 +16,6 @@ namespace ToDoTraining.Domain.Interface
 
         Task<T> Update(T entity);
 
-        Task<T> Delete(string id);
+        Task Delete(string id); 
     }
 }

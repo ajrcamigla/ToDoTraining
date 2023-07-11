@@ -47,6 +47,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "ToDoTraining.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ToDoTraining.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoTraining.Domain.dll": {}
+        }
       }
     }
   },
@@ -105,11 +115,17 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ToDoTraining.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ToDoTraining.Domain/ToDoTraining.Domain.csproj",
+      "msbuildProject": "../ToDoTraining.Domain/ToDoTraining.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MediatR >= 12.0.1"
+      "MediatR >= 12.0.1",
+      "ToDoTraining.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -144,7 +160,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj": {
+              "projectPath": "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

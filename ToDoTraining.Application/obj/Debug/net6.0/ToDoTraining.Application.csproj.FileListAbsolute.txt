@@ -1,0 +1,15 @@
+C:\ToDoTraining\ToDoTraining.Application\bin\Debug\net6.0\ToDoTraining.Application.deps.json
+C:\ToDoTraining\ToDoTraining.Application\bin\Debug\net6.0\ToDoTraining.Application.dll
+C:\ToDoTraining\ToDoTraining.Application\bin\Debug\net6.0\ToDoTraining.Application.pdb
+C:\ToDoTraining\ToDoTraining.Application\bin\Debug\net6.0\ToDoTraining.Domain.dll
+C:\ToDoTraining\ToDoTraining.Application\bin\Debug\net6.0\ToDoTraining.Domain.pdb
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.csproj.AssemblyReference.cache
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.AssemblyInfoInputs.cache
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.AssemblyInfo.cs
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.csproj.CoreCompileInputs.cache
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.csproj.CopyComplete
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.dll
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\refint\ToDoTraining.Application.dll
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ToDoTraining.Application.pdb
+C:\ToDoTraining\ToDoTraining.Application\obj\Debug\net6.0\ref\ToDoTraining.Application.dll

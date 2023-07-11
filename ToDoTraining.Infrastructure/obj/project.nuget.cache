@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "Ky9PmxdIf6JZC9HpZT4apMnGDmClaDaCQQ4ff2p0v73YHlbfNlbO2rhjmtQjZyvjRVAxaZw5NsM991V/Zrl+sQ==",
+  "dgSpecHash": "MrdMikO+pBkxrqjThWtiCG450bdgQj0T0JQDqA4f9EsHk32YUIny2jkoISxIfT2Fxa88Tu0zWQ0JbrKH8geISw==",
   "success": true,
   "projectFilePath": "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\ToDoTraining.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\lambda2js.signed\\3.1.4\\lambda2js.signed.3.1.4.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.8\\microsoft.aspnetcore.jsonpatch.7.0.8.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\nito.asyncex.coordination\\5.1.2\\nito.asyncex.coordination.5.1.2.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\nito.asyncex.tasks\\5.1.2\\nito.asyncex.tasks.5.1.2.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\nito.collections.deque\\1.1.1\\nito.collections.deque.1.1.1.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\nito.disposables\\2.2.1\\nito.disposables.2.2.1.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\ravendb.client\\5.4.107\\ravendb.client.5.4.107.nupkg.sha512",
+    "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

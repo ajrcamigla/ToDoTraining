@@ -1,0 +1,15 @@
+C:\ToDoTraining\ToDoTraining.Infrastructure\bin\Debug\net6.0\ToDoTraining.Infrastructure.deps.json
+C:\ToDoTraining\ToDoTraining.Infrastructure\bin\Debug\net6.0\ToDoTraining.Infrastructure.dll
+C:\ToDoTraining\ToDoTraining.Infrastructure\bin\Debug\net6.0\ToDoTraining.Infrastructure.pdb
+C:\ToDoTraining\ToDoTraining.Infrastructure\bin\Debug\net6.0\ToDoTraining.Domain.dll
+C:\ToDoTraining\ToDoTraining.Infrastructure\bin\Debug\net6.0\ToDoTraining.Domain.pdb
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.csproj.AssemblyReference.cache
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.AssemblyInfoInputs.cache
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.AssemblyInfo.cs
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.csproj.CoreCompileInputs.cache
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.csproj.CopyComplete
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.dll
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\refint\ToDoTraining.Infrastructure.dll
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ToDoTraining.Infrastructure.pdb
+C:\ToDoTraining\ToDoTraining.Infrastructure\obj\Debug\net6.0\ref\ToDoTraining.Infrastructure.dll

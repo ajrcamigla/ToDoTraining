@@ -33,7 +33,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\ToDoTraining\\ToDoTraining.Application\\ToDoTraining.Application.csproj": {
+                "projectPath": "C:\\ToDoTraining\\ToDoTraining.Application\\ToDoTraining.Application.csproj"
+              },
+              "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj": {
+                "projectPath": "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj"
+              },
+              "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\ToDoTraining.Infrastructure.csproj": {
+                "projectPath": "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\ToDoTraining.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -49,6 +59,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -70,6 +84,206 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ToDoTraining\\ToDoTraining.Application\\ToDoTraining.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ToDoTraining\\ToDoTraining.Application\\ToDoTraining.Application.csproj",
+        "projectName": "ToDoTraining.Application",
+        "projectPath": "C:\\ToDoTraining\\ToDoTraining.Application\\ToDoTraining.Application.csproj",
+        "packagesPath": "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\",
+        "outputPath": "C:\\ToDoTraining\\ToDoTraining.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AJRC-Trainings\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj": {
+                "projectPath": "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj",
+        "projectName": "ToDoTraining.Domain",
+        "projectPath": "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj",
+        "packagesPath": "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\",
+        "outputPath": "C:\\ToDoTraining\\ToDoTraining.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AJRC-Trainings\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\ToDoTraining.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\ToDoTraining.Infrastructure.csproj",
+        "projectName": "ToDoTraining.Infrastructure",
+        "projectPath": "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\ToDoTraining.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AJRC-Trainings\\.nuget\\packages\\",
+        "outputPath": "C:\\ToDoTraining\\ToDoTraining.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AJRC-Trainings\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj": {
+                "projectPath": "C:\\ToDoTraining\\ToDoTraining.Domain\\ToDoTraining.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RavenDB.Client": {
+              "target": "Package",
+              "version": "[5.4.107, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
