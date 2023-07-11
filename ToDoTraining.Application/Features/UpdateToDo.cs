@@ -26,16 +26,16 @@ namespace ToDoTraining.Application.Features
         {
             var existingToDo = await _repository.GetById(request.Id);
 
-            if (existingToDo != null)
+            if (existingToDo == null)
             {
-                existingToDo.Title = request.Title;
-                existingToDo.Description = request.Description;
-                existingToDo.DueDate = request.DueDate;
-
-                return await _repository.Update(existingToDo);
+                return null;
             }
 
-            return null;
+            existingToDo.Title = request.Title;
+            existingToDo.Description = request.Description;
+            existingToDo.DueDate = request.DueDate;
+
+            return await _repository.Update(existingToDo);
 
         }
     }

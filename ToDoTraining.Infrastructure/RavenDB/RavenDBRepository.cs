@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Raven.Client.Documents;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,20 +33,10 @@ namespace ToDoTraining.Infrastructure.RavenDB
 
         public async Task<List<T>> GetAll()
         {
-            //var toDoList = new List<T>();
-
-            //using (var session = DocumentStoreHolder.Store.OpenAsyncSession())
-            //{
-            //    using (var outputStream = new MemoryStream())
-            //    {
-            //        toDoList = await session
-            //            .Advanced
-            //            .LoadStartingWithIntoStreamAsync("todos/", outputStream);
-
-            //    }
-            //}
-            //return toDoList;
-            throw new NotImplementedException();
+            using (var session = DocumentStoreHolder.Store.OpenAsyncSession()) 
+            {
+                return await session.Query<T>().ToListAsync();
+            }
         }
 
         public async Task<T> GetById(string id)

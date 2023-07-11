@@ -30,10 +30,16 @@ namespace ToDoTraining.API.Controllers
             return await _mediator.Send(new GetToDoByIdquery(id));
         }
 
-        [HttpPut("{id}")]
-        public async Task<ToDo> Update([FromRoute] string Id, [FromBody] UpdateToDoRequest request )
+        [HttpGet]
+        public async Task<List<ToDo>> GetAll()
         {
-            return await _mediator.Send(new UpdateToDoCommand(Id, request.Title, request.Description, request.DueDate));
+            return await _mediator.Send(new GetAllToDoQuery());
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ToDo> Update([FromRoute] string id, [FromBody] UpdateToDoRequest request )
+        {
+            return await _mediator.Send(new UpdateToDoCommand(id, request.Title, request.Description, request.DueDate));
         }
 
         [HttpDelete("{id}")]
