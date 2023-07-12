@@ -33,7 +33,7 @@ namespace ToDoTraining.API.Controllers
         [HttpGet]
         public async Task<List<ToDo>> GetAll()
         {
-            return await _mediator.Send(new GetAllToDoQuery());
+            return await _mediator.Send(new GetAllToDoQuery()); 
         }
 
         [HttpPut("{id}")]

@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Raven.Client.Documents.Identity;
+using Raven.Client;
 
 namespace ToDoTraining.Infrastructure.RavenDB
 {
@@ -22,24 +24,18 @@ namespace ToDoTraining.Infrastructure.RavenDB
 
         private static IDocumentStore CreateStore()
         {
-
-            IDocumentStore store = new DocumentStore()
+            var store = new DocumentStore()
             {
                 // Define the cluster node URLs (required)
                 Urls = new[] { "http://localhost:8080/", 
                            /*some additional nodes of this cluster*/ },
 
-                // Set conventions as necessary (optional)
-                Conventions =
-            {
-                MaxNumberOfRequestsPerSession = 10,
-                UseOptimisticConcurrency = true,
-            },
-
                 // Define a default database (optional)
                 Database = "Todos",
                 // Initialize the Document Store
-            }.Initialize();
+            };
+
+            store.Initialize();
 
             EnsureDatabaseExists(store, store.Database, true);
 

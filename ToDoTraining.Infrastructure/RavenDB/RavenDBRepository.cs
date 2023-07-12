@@ -1,4 +1,5 @@
 ﻿using Raven.Client.Documents;
+using Raven.Client.Documents.Linq.Indexing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -54,7 +55,7 @@ namespace ToDoTraining.Infrastructure.RavenDB
             {
                 await session.StoreAsync(entity);
                 await session.SaveChangesAsync();
-            }
+            } 
 
             return entity;
         }
